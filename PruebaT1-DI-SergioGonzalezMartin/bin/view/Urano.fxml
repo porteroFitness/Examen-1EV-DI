@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane nodeOrientation="LEFT_TO_RIGHT" prefHeight="500.0" prefWidth="600.0" stylesheets="@../application/application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ControlRocket">
+   <children>
+      <AnchorPane fx:id="imagen1" prefHeight="341.0" prefWidth="600.0" styleClass="img1" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <AnchorPane fx:id="imagen2" prefHeight="341.0" prefWidth="600.0" styleClass="img2" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <AnchorPane fx:id="imagen3" prefHeight="341.0" prefWidth="600.0" styleClass="img3" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <AnchorPane fx:id="imagen4" layoutY="-2.0" prefHeight="341.0" prefWidth="600.0" styleClass="img4" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <AnchorPane layoutY="340.0" prefHeight="193.0" prefWidth="600.0" styleClass="fondoBottom">
+         <children>
+            <JFXButton layoutX="229.0" layoutY="56.0" onAction="#cerrarMarsUrano" prefHeight="66.0" prefWidth="146.0" styleClass="botonSalir" text="SALIR" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

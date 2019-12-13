@@ -1,0 +1,65 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+@import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');
+*{
+    -fx-font-family: 'Poiret One';
+}
+/* Mars.fxml */
+.imagenTop{
+	-fx-background-image: url("../view/assets/sky.jpeg");
+}
+
+.boton{
+	-fx-background-color: #FF9300;
+	-fx-text-fill: white;
+}
+
+.boton :hover{
+	-fx-background-color: #FF6100;
+	-fx-text-fill: white;
+}
+.guest :hover{
+	-fx-text-fill: red;
+}
+
+.barraBottom{
+	-fx-background-color: #FF9300;
+}
+
+
+/* Urano.fxml */
+
+.img1{
+	-fx-background-image: url("../view/assets/sky.jpeg");
+}
+.img2{
+	-fx-background-image: url("../view/assets/galaxy.jpg");
+}
+.img3{
+	-fx-background-image: url("../view/assets/galaxy2.jpg");
+}
+.img4{
+	-fx-background-image: url("../view/assets/galaxy3.jpg");
+	-fx-background-position: center center;
+	-fx-background-size: 100% 100%;
+}
+
+.fondoBottom{
+	-fx-background-color: #202739;
+}
+.botones{
+	-fx-background-color: black;
+	-fx-text-fill: white;
+}
+.botones :hover{
+	-fx-text-fill: red;
+}
+
+.botonSalir{
+	-fx-background-color: #FF9300;
+	-fx-text-fill: white;
+}
+.botonSalir :hover{
+	-fx-background-color: #FF6100;
+	-fx-text-fill: white;
+}
